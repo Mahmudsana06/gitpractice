@@ -6,7 +6,8 @@ class Flight():
     def add_passenger(self,name):
         if not self.empty_seat():
             return False
-        self.passenger.append(name)
+        else:
+            self.passenger.append(name)
         return True
     
     def empty_seat(self):
@@ -22,4 +23,4 @@ for i in people:
     if success:
         print(f"Adding {i} is successful.")
     else:
-        print(f"{i} cannot be added.")
+        print(f"{i} cannot be")
