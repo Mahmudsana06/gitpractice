@@ -1,3 +1,4 @@
+print("Here I have attached a program learnt from CS50 in which we can add passenger's name if there is an empty seat in the airplane.")
 class Flight():
     def __init__(self,capacity):
         self.capacity=capacity
