@@ -6,8 +6,7 @@ class Flight():
     def add_passenger(self,name): 
         if not self.empty_seat():
             return False
-        else:
-            self.passenger.append(name)
+        self.passenger.append(name)
         return True
     
     def empty_seat(self):
